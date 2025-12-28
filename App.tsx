@@ -1,45 +1,33 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import { Text, View } from 'react-native';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+import AntDesign from '@react-native-vector-icons/ant-design';
+import Ionicons from '@react-native-vector-icons/ionicons';
+import MaterialCommunityIcons from '@react-native-vector-icons/material-design-icons';
+import FontAwesome6 from '@react-native-vector-icons/fontawesome6';
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
   return (
     <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
+      <SafeAreaView style={{ flex: 1, padding: 16 }}>
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sed qui
+          laboriosam ipsum praesentium.
+        </Text>
+
+        <View style={{ flexDirection: 'row', gap: 16, marginTop: 20 }}>
+          <AntDesign name="home" size={30} color="black" />
+          <Ionicons name="settings-outline" size={30} color="blue" />
+          <MaterialCommunityIcons
+            name="camera-outline"
+            size={30}
+            color="green"
+          />
+          <FontAwesome6 name="plane" iconStyle="solid" size={30} color="red" />
+        </View>
+      </SafeAreaView>
     </SafeAreaProvider>
   );
 }
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;

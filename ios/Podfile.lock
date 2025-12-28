@@ -1979,6 +1979,22 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
+  - react-native-vector-icons-ant-design (12.4.0)
+  - react-native-vector-icons-entypo (12.4.0)
+  - react-native-vector-icons-evil-icons (12.4.0)
+  - react-native-vector-icons-feather (12.4.0)
+  - react-native-vector-icons-fontawesome (12.4.0)
+  - react-native-vector-icons-fontawesome5 (12.3.0)
+  - react-native-vector-icons-fontawesome6 (12.3.0)
+  - react-native-vector-icons-fontisto (12.4.0)
+  - react-native-vector-icons-foundation (12.4.0)
+  - react-native-vector-icons-ionicons (12.3.0)
+  - react-native-vector-icons-lucide (12.4.0)
+  - react-native-vector-icons-material-design-icons (12.4.0)
+  - react-native-vector-icons-material-icons (12.4.0)
+  - react-native-vector-icons-octicons (20.4.0)
+  - react-native-vector-icons-simple-line-icons (12.4.0)
+  - react-native-vector-icons-zocial (12.4.0)
   - React-NativeModulesApple (0.83.1):
     - boost
     - DoubleConversion
@@ -2536,6 +2552,93 @@ PODS:
     - React-perflogger (= 0.83.1)
     - React-utils (= 0.83.1)
     - SocketRocket
+  - RNScreens (4.19.0):
+    - boost
+    - DoubleConversion
+    - fast_float
+    - fmt
+    - glog
+    - hermes-engine
+    - RCT-Folly
+    - RCT-Folly/Fabric
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-RCTImage
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - RNScreens/common (= 4.19.0)
+    - SocketRocket
+    - Yoga
+  - RNScreens/common (4.19.0):
+    - boost
+    - DoubleConversion
+    - fast_float
+    - fmt
+    - glog
+    - hermes-engine
+    - RCT-Folly
+    - RCT-Folly/Fabric
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-RCTImage
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - SocketRocket
+    - Yoga
+  - RNVectorIcons (10.3.0):
+    - boost
+    - DoubleConversion
+    - fast_float
+    - fmt
+    - glog
+    - hermes-engine
+    - RCT-Folly
+    - RCT-Folly/Fabric
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - SocketRocket
+    - Yoga
   - SocketRocket (0.7.1)
   - Yoga (0.0.0)
 
@@ -2585,6 +2688,22 @@ DEPENDENCIES:
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - "react-native-vector-icons-ant-design (from `../node_modules/@react-native-vector-icons/ant-design`)"
+  - "react-native-vector-icons-entypo (from `../node_modules/@react-native-vector-icons/entypo`)"
+  - "react-native-vector-icons-evil-icons (from `../node_modules/@react-native-vector-icons/evil-icons`)"
+  - "react-native-vector-icons-feather (from `../node_modules/@react-native-vector-icons/feather`)"
+  - "react-native-vector-icons-fontawesome (from `../node_modules/@react-native-vector-icons/fontawesome`)"
+  - "react-native-vector-icons-fontawesome5 (from `../node_modules/@react-native-vector-icons/fontawesome5`)"
+  - "react-native-vector-icons-fontawesome6 (from `../node_modules/@react-native-vector-icons/fontawesome6`)"
+  - "react-native-vector-icons-fontisto (from `../node_modules/@react-native-vector-icons/fontisto`)"
+  - "react-native-vector-icons-foundation (from `../node_modules/@react-native-vector-icons/foundation`)"
+  - "react-native-vector-icons-ionicons (from `../node_modules/@react-native-vector-icons/ionicons`)"
+  - "react-native-vector-icons-lucide (from `../node_modules/@react-native-vector-icons/lucide`)"
+  - "react-native-vector-icons-material-design-icons (from `../node_modules/@react-native-vector-icons/material-design-icons`)"
+  - "react-native-vector-icons-material-icons (from `../node_modules/@react-native-vector-icons/material-icons`)"
+  - "react-native-vector-icons-octicons (from `../node_modules/@react-native-vector-icons/octicons`)"
+  - "react-native-vector-icons-simple-line-icons (from `../node_modules/@react-native-vector-icons/simple-line-icons`)"
+  - "react-native-vector-icons-zocial (from `../node_modules/@react-native-vector-icons/zocial`)"
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-networking (from `../node_modules/react-native/ReactCommon/react/networking`)
   - React-oscompat (from `../node_modules/react-native/ReactCommon/oscompat`)
@@ -2618,6 +2737,8 @@ DEPENDENCIES:
   - ReactAppDependencyProvider (from `build/generated/ios/ReactAppDependencyProvider`)
   - ReactCodegen (from `build/generated/ios/ReactCodegen`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNScreens (from `../node_modules/react-native-screens`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - SocketRocket (~> 0.7.1)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -2715,6 +2836,38 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-vector-icons-ant-design:
+    :path: "../node_modules/@react-native-vector-icons/ant-design"
+  react-native-vector-icons-entypo:
+    :path: "../node_modules/@react-native-vector-icons/entypo"
+  react-native-vector-icons-evil-icons:
+    :path: "../node_modules/@react-native-vector-icons/evil-icons"
+  react-native-vector-icons-feather:
+    :path: "../node_modules/@react-native-vector-icons/feather"
+  react-native-vector-icons-fontawesome:
+    :path: "../node_modules/@react-native-vector-icons/fontawesome"
+  react-native-vector-icons-fontawesome5:
+    :path: "../node_modules/@react-native-vector-icons/fontawesome5"
+  react-native-vector-icons-fontawesome6:
+    :path: "../node_modules/@react-native-vector-icons/fontawesome6"
+  react-native-vector-icons-fontisto:
+    :path: "../node_modules/@react-native-vector-icons/fontisto"
+  react-native-vector-icons-foundation:
+    :path: "../node_modules/@react-native-vector-icons/foundation"
+  react-native-vector-icons-ionicons:
+    :path: "../node_modules/@react-native-vector-icons/ionicons"
+  react-native-vector-icons-lucide:
+    :path: "../node_modules/@react-native-vector-icons/lucide"
+  react-native-vector-icons-material-design-icons:
+    :path: "../node_modules/@react-native-vector-icons/material-design-icons"
+  react-native-vector-icons-material-icons:
+    :path: "../node_modules/@react-native-vector-icons/material-icons"
+  react-native-vector-icons-octicons:
+    :path: "../node_modules/@react-native-vector-icons/octicons"
+  react-native-vector-icons-simple-line-icons:
+    :path: "../node_modules/@react-native-vector-icons/simple-line-icons"
+  react-native-vector-icons-zocial:
+    :path: "../node_modules/@react-native-vector-icons/zocial"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-networking:
@@ -2781,6 +2934,10 @@ EXTERNAL SOURCES:
     :path: build/generated/ios/ReactCodegen
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -2829,6 +2986,22 @@ SPEC CHECKSUMS:
   React-Mapbuffer: 7b72a669e94662359dad4f42b5af005eb24b4e83
   React-microtasksnativemodule: cdc02da075f2857803ed63f24f5f72fc40e094c0
   react-native-safe-area-context: c00143b4823773bba23f2f19f85663ae89ceb460
+  react-native-vector-icons-ant-design: a309d03f837c62c60c74ce5fd82dc0da3f1e7bbe
+  react-native-vector-icons-entypo: feb9d28fa1769fd6b1913649f4a56f50510ee9a1
+  react-native-vector-icons-evil-icons: 5160157a6b05251812d4b74702efc84130fe52a3
+  react-native-vector-icons-feather: b0c81b5240bc89ba1546220b694fc5f7b660258d
+  react-native-vector-icons-fontawesome: 9b1827fc73ef619ce268bd6f0871f5a82233121f
+  react-native-vector-icons-fontawesome5: 271d813e27a86d30bb8cf1fc2f12dae74b74b69b
+  react-native-vector-icons-fontawesome6: 1a73ea16a698f70851ad47e94521a99499e8e974
+  react-native-vector-icons-fontisto: f2a88c77dee7b31477514c26fa612d84cbbca44b
+  react-native-vector-icons-foundation: 6958ac57466ad5f4d46e8db3b6bdff9fad14527d
+  react-native-vector-icons-ionicons: ad07e944a092a5cf71b8b569d8f5ce2bf674c415
+  react-native-vector-icons-lucide: 86e93d2468e533f5f0594371b9108972b3d92762
+  react-native-vector-icons-material-design-icons: 76cd460b3540b80527b4a80fb7f867f7deedb498
+  react-native-vector-icons-material-icons: d67e485a05560416ff6b5977d5fa7e0eb6af6870
+  react-native-vector-icons-octicons: 7729fdb078a1a52e2ce8ec65e16863818cd2ec28
+  react-native-vector-icons-simple-line-icons: 29b09fa6064117f0834535b1d993d63f63c41462
+  react-native-vector-icons-zocial: 46e323d250e507e8a7959c7d1a11253617cb27e9
   React-NativeModulesApple: a2c3d2cbec893956a5b3e4060322db2984fff75b
   React-networking: 3f98bd96893a294376e7e03730947a08d474c380
   React-oscompat: 80166b66da22e7af7fad94474e9997bd52d4c8c6
@@ -2862,9 +3035,11 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: 0eb286cc274abb059ee601b862ebddac2e681d01
   ReactCodegen: 3d48510bcef445f6403c0004047d4d9cbb915435
   ReactCommon: ac934cb340aee91282ecd6f273a26d24d4c55cae
+  RNScreens: ffbb0296608eb3560de641a711bbdb663ed1f6b4
+  RNVectorIcons: 791f13226ec4a3fd13062eda9e892159f0981fae
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 5456bb010373068fc92221140921b09d126b116e
 
 PODFILE CHECKSUM: 849f22a8607d0f3b4b405d612a2c7381eec3a850
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
