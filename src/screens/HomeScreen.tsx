@@ -1,12 +1,21 @@
-import {StyleSheet, Text, View} from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import { SafeAreaView } from 'react-native-safe-area-context';
-
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import CategoriesGrid from '../components/CategoriesGrid';
+import OfferBanner from '../components/OfferBanner';
+import RestaurantList from '../components/RestaurantList';
 const HomeScreen = () => {
+  const insets = useSafeAreaInsets();
   return (
-    <SafeAreaView >
-      <Text className="text-xl font-bold text-blue-500">HomeScreen</Text>
-    </SafeAreaView>
+    <ScrollView
+      bounces={false}
+      style={{ flex: 1 }}
+      contentContainerStyle={{ paddingBottom: insets.bottom }}
+    >
+      <OfferBanner />
+      <CategoriesGrid />
+      <RestaurantList />
+    </ScrollView>
   );
 }
 

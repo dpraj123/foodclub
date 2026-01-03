@@ -15,6 +15,7 @@ import {
   parsedAndLogRoute,
   setIsnavigationReady,
 } from '../Navigation';
+import { AppHeader } from '../../components/AppHeader';
 const RootStack = createNativeStackNavigator();
 const MainStack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -58,7 +59,10 @@ const AppNavigation = () => {
       onReady={() => setIsnavigationReady(true)}
       onStateChange={state => parsedAndLogRoute(state)}
     >
-      <RootStack.Navigator screenOptions={{ headerShown: false }}>
+      <RootStack.Navigator screenOptions={{
+        headerShown: true,
+        header: () => <AppHeader />
+      }}>
         {isAuthenticated ? (
           <RootStack.Screen
             name={RootRoutes.MainTabs}
