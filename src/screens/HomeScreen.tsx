@@ -1,9 +1,9 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 import React from 'react';
-import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import CategoriesGrid from '../components/CategoriesGrid';
-import OfferBanner from '../components/OfferBanner';
 import RestaurantList from '../components/RestaurantList';
+import TopOffers from '../components/TopOffers';
 const HomeScreen = () => {
   const insets = useSafeAreaInsets();
   return (
@@ -12,7 +12,7 @@ const HomeScreen = () => {
       style={{ flex: 1 }}
       contentContainerStyle={{ paddingBottom: insets.bottom }}
     >
-      <OfferBanner />
+      <TopOffers />
       <CategoriesGrid />
       <RestaurantList />
     </ScrollView>

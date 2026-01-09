@@ -1,7 +1,7 @@
 const BANNER_URL =
   'https://assets.box8.co.in/horizontal-rectangle/web/banner/2516';
 
-const TOP_OFFERS = [
+export const TOP_OFFERS = [
   {
     id: '1',
     title: 'Value Fun Pizzas',
