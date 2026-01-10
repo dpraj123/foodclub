@@ -8,8 +8,10 @@ import {
 } from 'react-native';
 import Ionicons from '@react-native-vector-icons/ionicons';
 import { TOP_OFFERS } from '../assets/data';
+import { useNavigation } from '@react-navigation/native';
 
 const TopOffers = () => {
+    const navigation = useNavigation<any>();
     const renderItem = ({ item }: { item: (typeof TOP_OFFERS)[0] }) => {
         return (
             <TouchableOpacity
@@ -59,10 +61,11 @@ const TopOffers = () => {
                     Top Offers 🔥
                 </Text>
 
-                <TouchableOpacity>
-                    <Text className="text-orange-500 text-xs font-bold">
+                <TouchableOpacity onPress={() => navigation.navigate('Offers')} className='flex-row gap-2 items-center '>
+                    <Text className="text-orange-500 text-lg font-bold">
                         VIEW ALL
                     </Text>
+                    <Ionicons name="arrow-forward-circle" size={24} color="#f97316" />
                 </TouchableOpacity>
             </View>
 

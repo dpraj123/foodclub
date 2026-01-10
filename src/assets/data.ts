@@ -1,5 +1,4 @@
-const BANNER_URL =
-  'https://assets.box8.co.in/horizontal-rectangle/web/banner/2516';
+
 
 export const TOP_OFFERS = [
   {
@@ -112,10 +111,9 @@ export const RESTAURANTS = [
   },
 ];
 
-//offers screen
-const TOP_CHIPS = ['All Offers', 'Flat OFF', 'Payment Partners'];
 
-const PROMOS = [
+export const TOP_CHIPS = ['All Offers', 'Flat OFF', 'Payment Partners'] as const;
+export const PROMOS = [
   {
     id: 'p1',
     titleTop: 'For New Users',
@@ -133,6 +131,29 @@ const PROMOS = [
     titleTop: 'For All Users',
     titleMain: 'Flat 50% OFF\nupto ₹100',
     code: 'EC50',
+  },
+];
+export const PAYMENT_PARTNERS = [
+  {
+    id: 'paytm',
+    name: 'Paytm',
+    offer: 'Flat ₹100 OFF',
+    code: 'PAYTM100',
+    description: 'On orders above ₹299',
+  },
+  {
+    id: 'gpay',
+    name: 'Google Pay',
+    offer: '10% Cashback',
+    code: 'GPAY10',
+    description: 'Up to ₹75 cashback',
+  },
+  {
+    id: 'phonepe',
+    name: 'PhonePe',
+    offer: 'Flat ₹75 OFF',
+    code: 'PHONE75',
+    description: 'Minimum order ₹249',
   },
 ];
 
